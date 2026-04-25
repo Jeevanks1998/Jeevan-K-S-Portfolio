@@ -38,7 +38,7 @@
     </button>
   </nav>
 
-  <!-- HERO -->
+    <!-- HERO -->
   <section class="hero" id="hero">
     <div class="hero-grid-lines"></div>
     <div class="hero-content">
@@ -79,15 +79,8 @@
         <div class="avatar-ring ring-1"></div>
         <div class="avatar-ring ring-2"></div>
         <div class="avatar-ring ring-3"></div>
-       <div class="avatar-placeholder" id="avatarBox">
-          <!-- PHOTO: place IMG_20241227_200005.jpg in same folder as index.html -->
-          <img
-            src="IMG_20241227_200005.jpg"
-            alt="Jeevan KS"
-            id="profileImg"
-            onerror="this.style.display='none'; document.getElementById('avatarFallback').style.display='flex';"
-          />
-          <div id="avatarFallback">
+        <div class="avatar-placeholder" id="avatarBox">
+          <svg viewBox="0 0 200 200" class="avatar-svg">
             <defs>
               <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
                 <stop offset="0%" style="stop-color:#00ff88"/>
@@ -102,7 +95,7 @@
             <path d="M60 160 Q60 120 100 118 Q140 120 140 160" fill="url(#avatarGrad)" opacity="0.7"/>
           </svg>
           <div class="avatar-label">Jeevan KS</div>
-          <div class=<img src="Profile Image/IMG_20241227_200005.jpg"></div>
+          <div class="avatar-sublabel">Add Your Photo</div>
         </div>
         <div class="floating-chip chip-1"><span class="chip-icon">⚡</span> React</div>
         <div class="floating-chip chip-2"><span class="chip-icon">📊</span> Power BI</div>
